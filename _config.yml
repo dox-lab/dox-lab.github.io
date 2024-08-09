@@ -21,7 +21,7 @@ repository               : "dox-lab/dox-lab.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "bio-photo.JPG"
   name             : "Daniel Medina"
   pronouns         : "future researcher"  
   bio              : "Soy Bachiller en ingeniería civil con experiencia en análisis, diseño, supervisión de obra, y evaluación de daños y riesgos. Me apasionan la tecnología, la innovación y la investigación, y estoy comprometido en aplicar estos elementos a mi trabajo. Tengo conocimientos sólidos en diseño de estructuras de concreto armado, albañilería armada y estructuras metálicas. Mi mentalidad está firmemente orientada hacia la investigación científica, lo que me ha permitido colaborar en proyectos relacionados con sismos, procesamiento de imágenes y señales, así como en la aplicación de IAs en la ingeniería civil. Además, tengo experiencia en programación orientada a objetos, siempre buscando formas de integrar la tecnología con la ingeniería para desarrollar soluciones innovadoras."
