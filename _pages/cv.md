@@ -11,35 +11,51 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Civil Engineering, Pontifical Catholic University of Peru (PUCP), 2016-2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* August 2023 - Present: Teaching Assistant - Structural Analysis
+  * PUCP
+  * Responsibilities: Reviewed academic evaluations, assisted in developing curricular materials, and provided student support.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* October 2023 - February 2024: External Consultant
+  * TEDI Enterprises
+  * Responsibilities: Developed advanced technological solutions, implemented AI-based predictive systems for concrete strength evaluation, conducted data analysis.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* February 2023 - Present: Senior Researcher
+  * TEDI
+  * Responsibilities: Authored and contributed to research papers, managed the TEDI community, presented webinars and workshops, and designed Python programming modules for civil engineering applications.
+
+* January 2022 - December 2022: Structural Area Assistant
+  * Simetrika S.A.C.
+  * Responsibilities: Dimensioned structural elements, assessed risks in existing structures, prepared technical documentation, and supervised road construction projects.
+
+* July 2022 - December 2022: Teaching Assistant - Materials Resistance
+  * PUCP
+  * Responsibilities: Reviewed evaluations, supported the development of curricular materials, and provided student guidance.
+
+* September 2021 - December 2021: Pre-Professional Intern
+  * GESTRUC S.A.C.
+  * Responsibilities: Analyzed reinforced concrete structures, evaluated seismic protection alternatives, and conducted studies for bridge design using FEM methods.
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Structural Analysis
+* Programming & Software Development
+  * Python Programming
+  * MATLAB and Simulink
+  * Lua Scripting
+  * PyTorch
+  * OpenSeesPy
+* Software Proficiency
+  * AutoCAD
+  * Revit 2020
+  * ETABS 2019
+  * DIANA FEA
+* AI Implementation
+  * Machine Learning for Structural Engineering
+  * Image and Signal Processing
 
 Publications
 ======
