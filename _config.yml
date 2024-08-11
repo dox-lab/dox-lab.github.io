@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "es-ES"
+locale                   : "en-US"
 title                    : "DOX's Homepage"
 title_separator          : "-"
 name                     : &name "Daniel Medina"
