@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "DOX's Homepage"
-title_separator          : "-"
-name                     : &name "Daniel Medina"
-description              : &description "personal description"
+title                    : "Daniel Medina Quispe (DOX) | Civil Engineering & AI"
+title_separator          : "|"
+name                     : &name "Daniel Medina Quispe (DOX)"
+description              : &description "Daniel Medina Quispe (DOX) - Civil Engineer and Researcher specializing in Artificial Intelligence, Seismic Engineering, and High-Performance Computing (HPC)."
 url                      : https://dox-lab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dox-lab/dox-lab.github.io"
@@ -22,13 +22,13 @@ repository               : "dox-lab/dox-lab.github.io"
 author:
   # Biographic information
   avatar           : "bio-photo.png"
-  name             : "Daniel Medina"
-  pronouns         : "Future Researcher"  
-  bio              : #
-  location         : "Perú"
-  employer         : "PUCP"
+  name             : "Daniel Medina Quispe (DOX)"
+  pronouns         : "Civil Engineer & Researcher"  
+  bio              : "Bridging the gap between Structural Engineering and AI. Known in the community as DOX."
+  location         : "Lima, Perú"
+  employer         : "UTEC"
   uri              : # URL
-  email            : "medina.daniel@pucp.edu.pe" 
+  email            : "daniel.medina@utec.edu.pe" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
