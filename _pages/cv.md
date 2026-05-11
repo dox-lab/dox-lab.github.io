@@ -3,96 +3,153 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+hide_page_title: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-Education
-======
-* B.S. in Civil Engineering, Pontifical Catholic University of Peru (PUCP), 2016-2021
+<section class="dox-page-banner dox-page-banner--cv">
+  <div>
+    <p class="dox-kicker">Public CV</p>
+    <h1>Academic and professional profile.</h1>
+    <p>A web-first version of my curriculum vitae focused on research, teaching, projects, and technical skills. Sensitive personal information is intentionally not published here.</p>
+  </div>
+</section>
 
-Work experience
-======
-### **Teaching Assistant - Structural Analysis Course**  
-**PUCP** | August 2023 - Present  
-- Reviewed evaluations and supported curriculum development.
+<section class="dox-section">
+  <div class="dox-publication-note">
+    <p class="dox-kicker">Privacy note</p>
+    <h2>Public version only</h2>
+    <p>This page avoids publishing phone number, home address, IDs, and other private details. A formal PDF CV can be prepared as a separate public version later, with only professional contact information.</p>
+  </div>
+</section>
 
-### **External Consultant**  
-**TEDI Empresas** | October 2023 - February 2024  
-- Implemented advanced technological solutions in structural design.
-- Developed automated systems and AI models for concrete quality and structural integrity.
-- Integrated data analytics for structural analysis.
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Profile</h2>
+    <p>Short public summary for academic and professional visitors.</p>
+  </div>
 
-### **Senior Researcher**  
-**TEDI** | February 2023 - Present  
-- Authored research articles and communicated complex topics.
-- Managed community engagement and led educational initiatives.
+  <div class="dox-cv-highlight">
+    <div>
+      <p class="dox-kicker">Research focus</p>
+      <h3>Structural engineering, seismic monitoring, and AI for resilient infrastructure.</h3>
+      <p>Civil engineer and researcher specializing in computational structural mechanics, data-driven modeling, structural health monitoring, and reproducible scientific computing. Current work focuses on seismic isolation systems, bridge inspection, deep learning, and engineering tools built with Python.</p>
+    </div>
+    <div class="dox-cv-highlight__links">
+      <a class="dox-button dox-button--primary" href="{{ base_path }}/portfolio/"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+      <a class="dox-button" href="{{ base_path }}/publications/"><i class="fa-solid fa-book-open"></i> Publications</a>
+      <a class="dox-button" href="{{ base_path }}/contact/"><i class="fa-solid fa-envelope"></i> Contact</a>
+    </div>
+  </div>
+</section>
 
-### **Structural Area Assistant**  
-**Simetrika S.A.C** | January 2022 - December 2022  
-- Designed structural elements and assessed risks in existing structures.
-- Supervised technical documentation and implemented automated design systems.
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Research Experience</h2>
+    <p>Selected projects and research roles.</p>
+  </div>
 
-### **Teaching Assistant - Strength of Materials Course**  
-**PUCP** | July 2022 - December 2022  
-- Reviewed evaluations and assisted in curriculum development.
+  <div class="dox-cv-timeline">
+    <article>
+      <span>2025 - Present</span>
+      <h3>DeepIsolationNet</h3>
+      <p><strong>Research Assistant, UTEC / RESUSCON Group.</strong> AI-based monitoring of seismic isolation systems using ambient vibration and seismic records.</p>
+      <p>Focus areas: OpenSeesPy workflows, nonlinear structural modeling, parameter identification, model calibration, uncertainty-aware analysis, and machine learning for damage assessment.</p>
+    </article>
 
-### **Pre-Professional Intern**  
-**GESTRUC S.A.C.** | September 2021 - December 2021  
-- Analyzed structural designs and applied FEM methods.
-- Conducted research on nonlinear behavior models in concrete.
+    <article>
+      <span>2024 - Present</span>
+      <h3>SIBridge</h3>
+      <p><strong>Research contributor.</strong> UAV-based damage detection and scalable inspection workflows for reinforced concrete bridges.</p>
+      <p>Focus areas: UAV flight path automation, 3D reconstruction from drone data, image-based damage segmentation, and bridge inspection methodology.</p>
+    </article>
 
-Skills
-======
-### Structural Analysis
-* Expertise in analyzing and designing structural systems.
+    <article>
+      <span>2024</span>
+      <h3>Sustainable Concrete Materials</h3>
+      <p>Finite element modeling and data-driven workflows for concrete material characterization, residual capacity, and failure mechanisms.</p>
+    </article>
+  </div>
+</section>
 
-### Programming & Software Development
-  * Python Programming
-  * MATLAB and Simulink
-  * Lua Scripting
-  * PyTorch
-  * OpenSeesPy
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Education and Teaching</h2>
+    <p>Academic background and courses.</p>
+  </div>
 
-### Software Proficiency
-  * AutoCAD
-  * Revit 2020
-  * ETABS 2019
-  * DIANA FEA
+  <div class="dox-cv-grid">
+    <article class="dox-cv-block">
+      <h3>Education</h3>
+      <ul>
+        <li>B.S. in Civil Engineering, Pontifical Catholic University of Peru (PUCP), 2016-2021.</li>
+        <li>Research training in computational mechanics, structural dynamics, seismic engineering, and AI-assisted engineering workflows.</li>
+      </ul>
+    </article>
 
-### AI Implementation
-  * Machine Learning for Structural Engineering
-  * Image and Signal Processing
+    <article class="dox-cv-block">
+      <h3>Teaching</h3>
+      <ul>
+        <li>Structural Analysis with Python.</li>
+        <li>Structural Dynamics with Python.</li>
+        <li>Civil Engineering 4.0: Technology and AI.</li>
+        <li>Fundamentals of BIM.</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-<!-- Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-### **Construction Structures Coordinator**  
-**EERI PUCP** | March 2019 - August 2020  
-- Conducted assessments of frame and truss structures under maximum static and dynamic loads.  
-- Managed construction projects for multi-family buildings using Revit.  
-- Planned and developed construction schedules.  
-- Implemented BIM procedures.
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Technical Skills</h2>
+    <p>Tools and methods used in research, teaching, and engineering workflows.</p>
+  </div>
 
-### **Collaborator in the Academic Affairs Department**  
-**IEEE PUCP** | March 2016 - March 2017  
-- Served on the academic affairs committee responsible for promoting events and disseminating knowledge, such as Bioengineering Week.
+  <div class="dox-skill-cloud">
+    <span>Python</span>
+    <span>OpenSeesPy</span>
+    <span>PyTorch</span>
+    <span>NumPy</span>
+    <span>SciPy</span>
+    <span>Matplotlib</span>
+    <span>Finite Element Method</span>
+    <span>Structural Dynamics</span>
+    <span>Seismic Isolation</span>
+    <span>Machine Learning</span>
+    <span>Computer Vision</span>
+    <span>Signal Processing</span>
+    <span>ETABS</span>
+    <span>Revit</span>
+    <span>BIM</span>
+  </div>
+</section>
+
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Public Links</h2>
+    <p>Where to explore more work.</p>
+  </div>
+
+  <div class="dox-contact-grid">
+    <a class="dox-contact-card" href="https://github.com/dox-lab">
+      <i class="fa-brands fa-github"></i>
+      <strong>GitHub</strong>
+      <span>github.com/dox-lab</span>
+    </a>
+
+    <a class="dox-contact-card" href="https://www.linkedin.com/in/daniel-medina-quispe-3b63b5174/">
+      <i class="fa-brands fa-linkedin"></i>
+      <strong>LinkedIn</strong>
+      <span>Daniel Medina Quispe</span>
+    </a>
+
+    <a class="dox-contact-card" href="{{ base_path }}/contact/">
+      <i class="fa-solid fa-envelope"></i>
+      <strong>Contact page</strong>
+      <span>Professional email routes</span>
+    </a>
+  </div>
+</section>

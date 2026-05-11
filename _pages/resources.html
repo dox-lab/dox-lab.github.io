@@ -1,0 +1,104 @@
+---
+layout: archive
+title: "Resources"
+permalink: /resources/
+author_profile: true
+hide_page_title: true
+---
+
+{% include base_path %}
+
+<section class="dox-page-banner dox-page-banner--resources">
+  <div>
+    <p class="dox-kicker">Resources and demos</p>
+    <h1>Code, animations, figures, and reproducible engineering material.</h1>
+    <p>This section is for things that are hard to appreciate from GitHub alone: model animations, plots, notebooks, simulation outputs, teaching files, and rendered visual demos.</p>
+  </div>
+</section>
+
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Code Demos</h2>
+    <p>Visual outputs from scripts and repositories, prepared as a small technical gallery.</p>
+  </div>
+
+  <div class="dox-demo-grid">
+    <article id="nonlinear_time_history_analysis" class="dox-demo-card dox-demo-card--wide">
+      <div class="dox-demo-card__media">
+        <img src="{{ base_path }}/images/Resource/3D_Building.gif" alt="Nonlinear Time History Analysis demo">
+      </div>
+      <div class="dox-demo-card__body">
+        <span class="dox-tag">Python repository</span>
+        <h3>Nonlinear Time History Analysis</h3>
+        <p>This project performs a nonlinear time-history analysis of an 8-story reinforced concrete structure using interactive programming with Python and the OpenSeesPy library. The analysis is based on the guidelines of the Peruvian technical standard E.030 for earthquakes and compares the results with the commercial software ETABS. Additionally, the DXF format is used to import the initial structural design, and EZDXF is used to manipulate these files in Python.</p>
+        <p class="dox-small">The source code is available on my GitHub profile.</p>
+        <div class="dox-actions dox-actions--tight">
+          <a class="dox-button dox-button--primary" href="{{ base_path }}/demos/interactive_alignment.html"><i class="fa-solid fa-cube"></i> Interactive demo</a>
+          <a class="dox-button" href="https://github.com/dox-lab/Analisis-Tiempo-Historia-No-Lineal"><i class="fa-brands fa-github"></i> Repository</a>
+          <a class="dox-button" href="{{ base_path }}/portfolio/#computational-tools"><i class="fa-solid fa-cube"></i> Context</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="dox-demo-card">
+      <div class="dox-demo-placeholder">
+        <i class="fa-solid fa-film"></i>
+      </div>
+      <div class="dox-demo-card__body">
+        <span class="dox-tag">Animation slot</span>
+        <h3>Structural model animation</h3>
+        <p>Placeholder for future GIFs or short videos showing frame behavior, deformation, modal shapes, or 3D views.</p>
+      </div>
+    </article>
+
+    <article class="dox-demo-card">
+      <div class="dox-demo-placeholder dox-demo-placeholder--teal">
+        <i class="fa-solid fa-chart-line"></i>
+      </div>
+      <div class="dox-demo-card__body">
+        <span class="dox-tag">Signal demo</span>
+        <h3>Monitoring records</h3>
+        <p>Space for time histories, spectra, modal parameters, and DeepIsolationNet monitoring outputs.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Featured Material</h2>
+    <p>Reusable notes, webinars, and visual explanations that support the research and teaching pages.</p>
+  </div>
+
+  <div class="dox-grid">
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/editing-talk.png" alt="Webinar material">
+      <div class="dox-card__body">
+        <span class="dox-tag">Webinar</span>
+        <h3>Análisis Modal Espectral con Python</h3>
+        <p>Presentation material and Python code for spectral modal analysis using NumPy, SciPy, and Matplotlib.</p>
+        <a href="{{ base_path }}/webinar/analisis-modal-espectral-python">Open resource</a>
+      </div>
+    </article>
+
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/Post/post-6/04.png" alt="Finite element formulation">
+      <div class="dox-card__body">
+        <span class="dox-tag">Visual note</span>
+        <h3>Finite Element Method</h3>
+        <p>Figures and explanations about FEM discretization, formulation, assembly, applications, and limitations.</p>
+        <a href="{{ base_path }}/posts/2024/07/finite-element-method/">Read note</a>
+      </div>
+    </article>
+
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/Post/post-1/03.png" alt="GPT models in construction">
+      <div class="dox-card__body">
+        <span class="dox-tag">AI note</span>
+        <h3>ChatGPT in Construction</h3>
+        <p>A practical explanation of generative AI, limitations, and possible uses in construction-sector workflows.</p>
+        <a href="{{ base_path }}/posts/2024/06/understanding-chatgpt-and-its-application/">Read note</a>
+      </div>
+    </article>
+  </div>
+</section>

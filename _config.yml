@@ -8,10 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Daniel Medina Quispe (DOX) | Civil Engineering & AI"
+title                    : "Daniel O. X. Medina Quispe (DOX) | Civil Engineering & AI"
 title_separator          : "|"
-name                     : &name "Daniel Medina Quispe (DOX)"
-description              : &description "Daniel Medina Quispe (DOX) - Civil Engineer and Researcher specializing in Artificial Intelligence, Seismic Engineering, and High-Performance Computing (HPC)."
+name                     : &name "Daniel O. X. Medina Quispe (DOX)"
+masthead_title           : "DOX Lab"
+description              : &description "Daniel O. X. Medina Quispe (DOX) - Civil engineer and researcher in structural engineering, seismic monitoring, artificial intelligence, and scientific computing."
 url                      : https://dox-lab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dox-lab/dox-lab.github.io"
@@ -22,13 +23,13 @@ repository               : "dox-lab/dox-lab.github.io"
 author:
   # Biographic information
   avatar           : "bio-photo.png"
-  name             : "Daniel Medina Quispe (DOX)"
+  name             : "Daniel O. X. Medina Quispe (DOX)"
   pronouns         : "Civil Engineer & Researcher"  
-  bio              : "Bridging the gap between Structural Engineering and AI. Known in the community as DOX."
+  bio              : "Civil engineer and researcher in structural engineering, seismic monitoring, AI, and scientific computing."
   location         : "Lima, Perú"
   employer         : "UTEC"
   uri              : # URL
-  email            : "daniel.medina@utec.edu.pe" 
+  email            : "doxmedina@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -79,7 +80,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -120,25 +120,30 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "DanielMedinaDX"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person"
+  name                   : "Daniel O. X. Medina Quispe (DOX)"
   links: # An array of links to social media profiles
+    - "https://github.com/dox-lab"
+    - "https://www.linkedin.com/in/daniel-medina-quispe-3b63b5174/"
+    - "https://twitter.com/DanielMedinaDX"
+    - "https://www.facebook.com/doxmedina"
+    - "https://instagram.com/dani_drox"
 
 
 # Analytics
 analytics:
   provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-WWPV0QGY79"
 
 
 # Reading Files
@@ -155,10 +160,13 @@ exclude:
   - .sass-cache
   - CHANGELOG
   - Capfile
+  - CONTRIBUTING.md
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
@@ -166,8 +174,12 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
   - tmp
   - vendor
 keep_files:

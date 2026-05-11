@@ -1,12 +1,61 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Courses"
 permalink: /teaching/
 author_profile: true
+hide_page_title: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="dox-page-banner dox-page-banner--courses">
+  <div>
+    <p class="dox-kicker">Teaching</p>
+    <h1>Courses and educational material.</h1>
+    <p>Courses are listed after research, resources, and portfolio work to keep the site oriented toward a professional academic profile while still showing teaching experience clearly.</p>
+  </div>
+</section>
+
+<section class="dox-section">
+  <div class="dox-grid">
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/Analisis-estructural-python.jpg" alt="Análisis Estructural con Python">
+      <div class="dox-card__body">
+        <span class="dox-tag">Course</span>
+        <h3>Análisis Estructural con Python</h3>
+        <p>Structural analysis using the stiffness method and practical Python routines for civil engineering.</p>
+        <a href="{{ base_path }}/teaching/analisis-estructural-python">Open course</a>
+      </div>
+    </article>
+
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/Dinamica-estructural-python.jpg" alt="Dinámica de Estructuras con Python">
+      <div class="dox-card__body">
+        <span class="dox-tag">Course</span>
+        <h3>Dinámica de Estructuras con Python</h3>
+        <p>Computational material for structural dynamics, vibration, modal analysis, and response spectra.</p>
+        <a href="{{ base_path }}/teaching/dinamica-estructuras-python">Open course</a>
+      </div>
+    </article>
+
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/Tecnologia-IA-Python.png" alt="Ingeniería Civil 4.0">
+      <div class="dox-card__body">
+        <span class="dox-tag">Course</span>
+        <h3>Ingeniería Civil 4.0</h3>
+        <p>Technology, artificial intelligence, and Python programming for future civil engineering practice.</p>
+        <a href="{{ base_path }}/teaching/ingenieria-civil-4-0">Open course</a>
+      </div>
+    </article>
+
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/Fundamentos-BIM.jpg" alt="Fundamentos BIM">
+      <div class="dox-card__body">
+        <span class="dox-tag">Course</span>
+        <h3>Fundamentos BIM</h3>
+        <p>BIM methodology and implementation for public administration and project workflows in Latin America.</p>
+        <a href="{{ base_path }}/teaching/fundamentos-bim-latinoamerica">Open course</a>
+      </div>
+    </article>
+  </div>
+</section>

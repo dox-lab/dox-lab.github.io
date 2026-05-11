@@ -3,12 +3,119 @@ layout: archive
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
+hide_page_title: true
 ---
 
 {% include base_path %}
 
+<section class="dox-page-banner dox-page-banner--portfolio">
+  <div>
+    <p class="dox-kicker">Portfolio</p>
+    <h1>Research projects, computational tools, and applied engineering</h1>
+    <!-- <p>A professional portfolio should show more than repository links: problem context, collaborators, funding, methodology, visual outputs, and the engineering value of the work.</p> -->
+    <div class="dox-actions">
+      <a class="dox-button dox-button--primary" href="#deepisolationnet"><i class="fa-solid fa-wave-square"></i> Main project</a>
+      <a class="dox-button" href="https://github.com/dox-lab"><i class="fa-brands fa-github"></i> GitHub profile</a>
+    </div>
+  </div>
+</section>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Research Projects</h2>
+    <!-- <p>Current projects where civil infrastructure, sensing, computer vision, and deep learning meet.</p> -->
+  </div>
 
+  <article id="deepisolationnet" class="dox-project-detail dox-project-detail--primary">
+    <div class="dox-project-detail__media">
+      <img src="{{ base_path }}/images/Portafolio/DeepIsolationNet2.png" alt="Simulation image placeholder for DeepIsolationNet">
+    </div>
+    <div class="dox-project-detail__body">
+      <span class="dox-tag">Current main project</span>
+      <h3>DeepIsolationNet</h3>
+      <p class="dox-project-subtitle">AI system for efficient inspection and monitoring of seismic isolators for resilient civil infrastructure.</p>
+      <p>This project aims to develop and validate an automated system for the inspection and monitoring of seismic isolators. A comprehensive database of ambient vibration signals and seismic monitoring records from operational isolators is curated, complemented by traditional inspection methods. This information will be integrated into the TremorBank database, which supports both local and global monitoring processes.</p>
+      <p>At the local level, the project will introduce a Deep Learning model designed to determine the degree of deterioration in individual isolators under normal operating conditions. On a global scale, a hybrid Deep Learning model will be developed and tested to monitor isolators subjected to seismic events. These models will be incorporated into a single module for post-earthquake analysis and assessment of the isolation system condition after a seismic event.</p>
+      <dl class="dox-meta-list">
+        <div><dt>PI</dt><dd>Luis Bedriñana</dd></div>
+        <div><dt>Partners</dt><dd>Universidad de los Andes, Chile; Universidad Nacional de San Antonio Abad del Cusco, UNSAAC (Peru)</dd></div>
+        <div><dt>Funding</dt><dd>ProCiencia, Grant for Applied Research Projects 2025-02</dd></div>
+      </dl>
+      <p class="dox-keywords">Deep Learning, seismic monitoring, seismic isolation, Artificial Intelligence, neural networks, resilient infrastructure.</p>
+    </div>
+  </article>
+
+  <article id="sibridge" class="dox-project-detail">
+    <div class="dox-project-detail__media">
+      <img src="{{ base_path }}/images/Portafolio/SIBridge.png" alt="Bridge analysis image placeholder for SIBridge">
+    </div>
+    <div class="dox-project-detail__body">
+      <span class="dox-tag">Bridge inspection</span>
+      <h3>Smart Inspection for Bridges (SIBridge)</h3>
+      <p class="dox-project-subtitle">Scalable Automatic Damage Inspection and Assessment of Reinforced Concrete Bridges via Unmanned Aerial Vehicles.</p>
+      <p>This project proposes an integration of drone path automation with state-of-the-art AI algorithms for the automatic evaluation and report of surface damages on RC bridges. The main objective is to propose a scalable, low-cost system for inspection and assessment of superficial damage in RC bridges using UAVs.</p>
+      <p>The project focuses on two main technical challenges: automatic damage segmentation and properties retrieval of concrete structures using 2D images, and flight path optimization of UAVs for data collection of full-size bridges. The resulting system can automate the bridge inspection process, reducing time, effort, and costs.</p>
+      <dl class="dox-meta-list">
+        <div><dt>PI</dt><dd>Luis Bedriñana</dd></div>
+        <div><dt>Partners</dt><dd>University of Alberta</dd></div>
+        <div><dt>Funding</dt><dd>University of Alberta - UTEC Faculty Grant, 2024</dd></div>
+      </dl>
+      <p class="dox-keywords">Concrete structures; bridges; unmanned aerial vehicle; damage detection; machine learning; convolutional neural networks; deep learning; semantic segmentation; path automation.</p>
+    </div>
+  </article>
+</section>
+
+<section class="dox-section">
+  <div class="dox-section__head">
+    <h2>Research Group</h2>
+    <!-- <p>Academic context and collaboration environment.</p> -->
+  </div>
+
+  <article class="dox-panel dox-panel--research">
+    <div>
+      <p class="dox-kicker">UTEC</p>
+      <h2>RESUSCON</h2>
+      <p>I am a member of the Research Group on Resilient and Sustainable Concrete Infrastructure at UTEC. The group works on scientific and applied research for durable, sustainable, and resilient concrete infrastructure affected by earthquakes.</p>
+    </div>
+    <a class="dox-button" href="https://sites.google.com/utec.edu.pe/resuscon/home?authuser=0"><i class="fa-solid fa-arrow-up-right-from-square"></i> Group site</a>
+  </article>
+</section>
+
+<section id="computational-tools" class="dox-section">
+  <div class="dox-section__head">
+    <h2>Computational Tools</h2>
+    <p>Repositories and visual outputs that can grow into detailed case studies.</p>
+  </div>
+
+  <div class="dox-grid">
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/Post/post-6/03.png" alt="Structural computational model">
+      <div class="dox-card__body">
+        <span class="dox-tag">Python</span>
+        <h3>ETABS Killer</h3>
+        <p>Modular structural analysis pipeline built from first principles: reader, analyzer, and plotter for structural model visualization.</p>
+        <a href="{{ base_path }}/resources/#etabs-killer">View resource</a>
+      </div>
+    </article>
+
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/editing-talk.png" alt="Modal spectral analysis webinar">
+      <div class="dox-card__body">
+        <span class="dox-tag">Teaching demo</span>
+        <h3>Modal spectral analysis</h3>
+        <p>Scripts and teaching material for structural dynamics, response spectra, and Python-based analysis workflows.</p>
+        <a href="{{ base_path }}/webinar/analisis-modal-espectral-python">Open webinar</a>
+      </div>
+    </article>
+
+    <article class="dox-card">
+      <img src="{{ base_path }}/images/Post/post-1/03.png" alt="AI and engineering workflow">
+      <div class="dox-card__body">
+        <span class="dox-tag">AI</span>
+        <h3>AI applied to engineering</h3>
+        <p>Notes and future demos around data-driven civil engineering, construction information, and decision support.</p>
+        <a href="{{ base_path }}/posts/2024/06/understanding-chatgpt-and-its-application/">Read note</a>
+      </div>
+    </article>
+  </div>
+</section>
